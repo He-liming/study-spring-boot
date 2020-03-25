@@ -4,10 +4,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class indexController {
+public class LoginController {
 
-    @RequestMapping("index")
+    // 跳转到登录页面
+    /*@RequestMapping({"/login", "/"})
     public String index() {
-        return "index";
-    }
+        return "login";
+    }*/
 }
