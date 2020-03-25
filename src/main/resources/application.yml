@@ -32,6 +32,10 @@ spring:
   messages:
     basename: static.i18n.login
 
+  # 禁用缓存
+  thymeleaf:
+    cache: false
+
   jpa:
     hibernate:
       #更新或者创建数据表结构
