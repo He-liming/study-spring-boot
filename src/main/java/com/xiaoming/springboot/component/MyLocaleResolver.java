@@ -7,6 +7,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Locale;
 
+/**
+ * 可以在连接上携带区域信息
+ */
 public class MyLocaleResolver implements LocaleResolver {
 
     @Override
