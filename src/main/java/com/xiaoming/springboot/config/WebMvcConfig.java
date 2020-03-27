@@ -23,7 +23,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         // 需要放行webjars和static中的相关内容
-        registry.addInterceptor(new LoginInterceptor()).addPathPatterns("/**").excludePathPatterns("/user/login", "/index.html", "/", "/webjars/**", "/static/**");
+        // registry.addInterceptor(new LoginInterceptor()).addPathPatterns("/**").excludePathPatterns("/user/login", "/index.html", "/", "/webjars/**", "/static/**");
     }
 
     /**
